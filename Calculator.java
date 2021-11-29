@@ -28,6 +28,9 @@ public class Calculator
 			case 4:
 			logarithmic();
 			break;
+			default:
+			System.out.println("Invalid Choice");
+			break;
 
 		}
 
