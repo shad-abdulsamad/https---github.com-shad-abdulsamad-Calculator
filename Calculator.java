@@ -12,6 +12,7 @@ public class Calculator
 		System.out.println("[3] Exponential");
 		System.out.println("[4] Logarithmic");
 		System.out.println("[5] Misc");
+		System.out.println("[6] Exit");
 		System.out.println();
 		System.out.println("Enter the Type of the Operation You Want");
 		int select=input.nextInt();
@@ -32,6 +33,12 @@ public class Calculator
 			case 5:
 				misc();
 				break;
+			case 6:
+				break;
+			default:
+				System.out.println("Invalid Choice");
+				break;
+			
 		}
 
 
